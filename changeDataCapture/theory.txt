@@ -1,0 +1,12 @@
+cdc:
+===
+
+- change data capture only captures changes 
+- need to enable cdc for the object.
+- record level change 
+
+
+- name: ObjectAPINAMEChangeEvent / customObjAPINAME__ChangeEvent 
+- channel: /data/ObjectAPINAMEChangeEvent
+
+

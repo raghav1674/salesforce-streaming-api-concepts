@@ -1,0 +1,19 @@
+- create streaming channel from app launcher
+
+- should start with /u/<name>
+
+Headers Auth bearer token
+POST /services/data/v52.0/sobjects/StreamingChannel/<ID>/push
+body:
+{ 
+  "pushEvents": [
+      { 
+          "payload": "hello world!", 
+          "userIds": [ "<userId>" ] 
+      }, 
+      { 
+          "payload": "broadcast to everybody (empty user list)!", 
+          "userIds": [] 
+      } 
+   ] 
+}

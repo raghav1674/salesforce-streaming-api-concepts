@@ -1,0 +1,20 @@
+- like an object 
+- secure data transfer 
+- triggers on events(trigger events)
+
+=> Publish:
+   - Apex
+   - Process Builder
+   - API 
+
+=> NAME__e
+
+=> channel Name = /event/Name__e
+
+
+=> Publisher Behaviour : 
+- after commit of transaction
+
+=> create object of this and then Eventbus.publish(obj);
+
+=> can write triggers on the platformEvents

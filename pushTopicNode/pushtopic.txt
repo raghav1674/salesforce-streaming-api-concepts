@@ -1,0 +1,20 @@
+- PushTopic => changes in salesforce data 
+
+- Channel Name: /topic/Name;
+
+- NotifyForFields => Select,WHERE,Referenced,ALL
+
+1) create PushTopic object
+2) provide name and query
+3) insert 
+
+- cannot use related fields and textarea
+
+- USING LWC:
+=> we need to use lightning/empApi
+=> uses CometD
+
+replayId => -1 to get the new events, -2 to get previously saved and other number to get messages after that. 
+
+=> USING Nodejs 
+- jsforce
